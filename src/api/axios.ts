@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create axios instance
 const api = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: "https://synthesize-backend.onrender.com",
 });
 
 // Request interceptor to attach bearer token
